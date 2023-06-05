@@ -1,0 +1,37 @@
+.header {
+    background-color:violet;
+    color: white;
+    display: flex;
+    height: 80px;
+}
+.img-cover{
+    margin:20px 20px;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.header-title{
+    display: flex;
+    align-items: center;
+}
+.title-text{
+    font-size: 30px;
+}
+.navbar-main{
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.btn-nav
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list{
+    list-style: none;
+}
