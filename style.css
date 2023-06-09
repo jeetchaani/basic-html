@@ -98,3 +98,40 @@
     cursor: pointer;
     padding-left: 15px;
 }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    margin-top: 20px;
+    align-items: center;
+}
+.card{
+    width: 295px;
+    border: 2px solid aqua;
+    align-items: center;
+}
+.card p{
+   text-align: justify;
+}
+.card img{
+    width: 290px;
+    
+}
+.card-bottom{
+    display: flex;
+}
+.card-bottom ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.card-bottom ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+.card-bottom ul li a:link{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
