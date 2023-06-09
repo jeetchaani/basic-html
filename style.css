@@ -1,8 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
 .header {
     background-color:violet;
     color: white;
     display: flex;
-    height: 80px;
+    height: 65px;
 }
 .img-cover{
     margin:20px 20px;
@@ -21,7 +50,7 @@
 }
 .navbar-main{
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
 }
@@ -31,17 +60,41 @@
     border: none;
     color: white;
     font-size: 20px;
+    padding-left: 20px;
+    cursor: pointer;
 }
 .nav-list{
     list-style: none;
 }
-.flex-container{
+.menu-new{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
-.flex-items{
-    background-color: aliceblue;
-    margin-top: 20px;
-    
+.location-title{
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+.icon-menu{
+    cursor: pointer;
+}
+.location-title h3{
+    margin-left: 15px;
+}
+.icon-list{
+    display: flex;
+    margin-left: auto;
+}
+.icon-list ul{
+     display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+    }
+.icon-list ul li{
+    cursor: pointer;
+    padding-left: 15px;
 }
